@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+:root {
+  --pri-bg: linear-gradient(90deg, #149ccf 0%, #16dcbb 100%);
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #030814;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(90deg, #149ccf 0%, #16dcbb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    transition: 0.4s !important;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 130px 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+    background: url('images/background.png') center center/contain no-repeat;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.header-bg {
+  transition: 0.4s;
+  background: rgba(3, 8, 20, 0.5);
+  backdrop-filter: blur(10px);
+  border-bottom: solid 1px var(--primary-color);
+}
+
+/* Navbar */
+header {
+    z-index: 100;
+}
+
+.logo {
+    max-width:70px;
+}
+
+.nav-item {
+  padding-inline: 0.75rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  background: -webkit-linear-gradient(90deg, #149ccf 0%, #16dcbb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s !important;
+}
+
+.action {
+  background: var(--pri-bg);
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.action:hover {
+  background: linear-gradient(90deg, #16dcbb 0%, #149ccf 100%);
+}
+
+/* Hero */
+#hero {
+    background: url('images/hero.png') center center/cover no-repeat;
+    height: 100vh;
+    
+}
+
+
+/* Team */
+.team {
+    max-width: 320px;
+    background-color: #06112B;
+    border-radius: 32px;
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.team-img {
+    padding: 32px 32px 0px 32px;
+}
+
+/* Appointment */
+#appointment {
+    background-color: #06112B;
+    padding-block: 0;
+}
