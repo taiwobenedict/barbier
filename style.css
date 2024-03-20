@@ -108,3 +108,9 @@ header {
     background-color: #06112B;
     padding-block: 0;
 }
+
+@media (max-width: 768px) {
+    .team {
+        margin-inline: auto !important;
+    }
+}
