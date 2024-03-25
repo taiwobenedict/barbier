@@ -175,3 +175,15 @@ header {
   background: url("images/bg2.png") center center/cover no-repeat;
 }
  
+
+.cookies {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(150px);
+  transition: 0.5s;
+}
+
+.show-cookies {
+transform: translateY(0px);
+}
