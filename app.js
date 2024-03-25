@@ -1,5 +1,5 @@
 const header = document.querySelector('header')
-const cookies = document.querySelector(".cookies")
+const popup = document.querySelector(".popup")
 const cookieBtns = document.querySelectorAll(".cookie-btn")
 
 document.body.onscroll = () => {
@@ -13,11 +13,11 @@ document.body.onscroll = () => {
 }
 
 window.onload = function () {
-    let isSaved = localStorage.getItem('cookies') || null
+    let isSaved = localStorage.getItem('popup') || null
 
     if (!isSaved) {
         setTimeout(function () {
-            cookies.classList.add('show-cookies')
+            cookies.classList.add('show-popup')
         }, 2000)
     }
 }
@@ -25,10 +25,10 @@ window.onload = function () {
 cookieBtns.forEach(function(cookieBtn) {
     cookieBtn.addEventListener("click", function () {
         setTimeout(function () {
-            cookies.classList.remove('show-cookies')
+            popup.classList.remove('show-popup')
         }, 1000)
 
-        localStorage.setItem("cookies", true)
+        localStorage.setItem("popup", true)
     } )
 
 })
