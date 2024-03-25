@@ -184,7 +184,7 @@ header {
   bottom: 0px;
   left: 0px;
   width: 100%;
-  /* transform: translateY(150px); */
+  transform: translateY(150px); 
   transition: 0.5s;
   z-index: 20;
 }
