@@ -179,15 +179,16 @@ header {
 }
  
 
-.cookies {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+.popup {
+  position: fixed !important;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
-  transform: translateY(150px);
+  /* transform: translateY(150px); */
   transition: 0.5s;
+  z-index: 20;
 }
 
-.show-cookies {
+.show-popup {
 transform: translateY(0px);
 }
