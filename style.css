@@ -51,6 +51,9 @@ ul {
 /* Navbar */
 header {
     z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .logo {
@@ -175,3 +178,16 @@ header {
   background: url("images/bg2.png") center center/cover no-repeat;
 }
  
+
+.cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(150px);
+  transition: 0.5s;
+}
+
+.show-cookies {
+transform: translateY(0px);
+}

@@ -171,6 +171,22 @@
         </div>
     </section>
 
+    <div class="cookies bg-dark py-3 px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <p class="m-0 text-center">We use cookie to improve your experience on our site. By using our site you consent cookies.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button class="btn btn-primary rounded mr-4 cookie-btn">Allow Cookies</button>
+                        <button class="btn btn-outline-danger rounded cookie-btn">Reject</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -180,19 +196,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 
-    <script>
-        const header = document.querySelector('header')
-
-        document.body.onscroll = () => {
-
-            if (document.body.scrollTop == 0) {
-                header.classList.remove('header-bg')
-            } else {
-                header.classList.add('header-bg')
-            }
-
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
 
 </html>
