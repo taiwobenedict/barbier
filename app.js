@@ -13,11 +13,12 @@ document.body.onscroll = () => {
 }
 
 window.onload = function () {
+
     let isSaved = localStorage.getItem('popup') || null
 
     if (!isSaved) {
         setTimeout(function () {
-            cookies.classList.add('show-popup')
+            popup.classList.add('show-popup')
         }, 2000)
     }
 }
